@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/0c3873d805.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="contact">
+      <div class="phone">
+        <i class="fa-solid fa-phone"></i>
+        <p>+216 90003060</p>
+      </div>
+      <div class="text">
+        <p>get 30% off on slected item || Shop now</p>
+      </div>
+    </div>
+
+    <!-- header section  -->
+    <header>
+        <div class="logo">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <h1>Xenon <span>Informatique</span></h1>
+        </div>
+
+    <!--  navbar  -->   
+    <div class="navbar">
+      <ul>
+        <li><a href="#categories-section">Categories</a></li>
+        <li><a href="#headpone-card">Deals</a></li>
+        <li><a href="">Whats New</a></li>
+        <li><a href="">Delivery</a></li>
+      </ul>
+    </div>
+
+    <div class="icons">
+
+     <!-- search-icon -->
+
+        <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass" onclick="openBarsearch()"></i>
+          </div>
+
+     <!-- account Icon-->
+
+        <div class="account-Icon" onclick="openAccountLog()">
+            <i class="fa-regular fa-user"></i>
+          </div>
+
+     <!-- shopping-Icon-->
+
+        <div class="shop-cart">
+        <i class="fa-solid fa-cart-plus"></i>
+        </div>    
+
+     <!-- navbar Icon  -->
+
+        <div class="barsIcon">
+            <i class="fa-solid fa-bars" id="menu"></i>
+          </div>
+        </div>
+
+         <!-- search-bar -->
+
+      <div class="search-bar">
+        <input type="text" name="" placeholder="Search here ..." />
+      </div>
+      <!-- account-sign-in  -->
+
+      <div class="loginNow">
+        <h2>LoginNow</h2>
+        <input type="email" placeholder="Your email..." required />
+        <input type="password" placeholder="password" required />
+        <input type="submit" value="login" class="login-btn" />
+        <p>Forget password <a href="#">Reeset Now</a></p>
+        <p>Dont have account <a href="#" id="signup">SignUP</a></p>
+      </div>
+      <div class="sign-up">
+        <h2>Sign up Now</h2>
+        <input type="email" placeholder="Your email..." required />
+        <input type="password" placeholder="create password" required />
+        <input type="password" placeholder="confirm password" required />
+        <input type="submit" value="sign Up" class="sign-up-btn" />
+        <p>U have have account !<a href="#" id="login">login</a></p>
+      </div>
+
+       <!-- responsive navbar  -->
+       <div class="responsive-navBar">
+        <ul>
+          <li><a href="#categories-section">Categories</a></li>
+          <li><a href="#headpone-card">Deals</a></li>
+          <li><a href="">Whats New</a></li>
+          <li><a href="">Delivery</a></li>
+        </ul>
+      </div>
+    </header>
+
+     <!-- home  -->
+
+     <div class="home">
+      <div>
+        <img
+          src="61TWnN7BSML-removebg-preview.png"
+          alt=""
+        />
+      </div>
+      <div class="home-text">
+        <h1>Shop Now</h1>
+        <h2>New Arrival of Fresh Product</h2>
+        <button>Buy Now</button>
+      </div>
+    </div>
+
+     <!-- marketing section -->
+
+     <div class="marketingSection">
+      <h1 class="Title">Popular Now</h1>
+      <div class="sliderContainer">
+        <div class="Marketing-content">
+          <div class="product-box">
+            <div class="product-text">
+              <h2>New</h2>
+              <h1>DRAGONBORN K630 Wired 60% Keyboard</h1>
+              <h2>$44.99</h2>
+            </div>
+          
+            <img src="https://th.bing.com/th/id/R.35d05c5d515a0b48c671cef6a4abfb32?rik=DIHacdQVrFqp8Q&pid=ImgRaw&r=0"height="250px"
+      
+            />
+          </div>
+          <div class="product-box">
+            <div class="product-text">
+              <h2>New</h2>
+              <h1>Clavier Gamer - Redragon Caraxes RGB Pro</h1>
+              <h2>$49.00</h2>
+            </div>
+            <img
+              src="clavier-gamer-redragon-caraxes-rgb-pro-tunisie-removebg-preview.png"
+
+              alt=""
+            />
+          </div>
+          <div class="product-box">
+            <div class="product-text">
+              <h2>New</h2>
+              <h1>Turtle Beach Vulcan TKL - Clavier de Jeu mécanique Compact RGB</h1>
+              <h2>$119,99</h2>
+            </div>
+            <img
+            src="image_2024-07-23_143519367-removebg-preview.png"
+            alt=""
+          />
+        </div>
+        <button class="slider-button left-button">
+          <i class="fa-solid fa-angle-left"></i>
+        </button>
+        <button class="slider-button right-button">
+          <i class="fa-solid fa-angle-right"></i>
+        </button>
+      </div>
+    </div>
+          <!-- marketing 2  -->
+
+          <div class="marketing2">
+            <h1 class="Title">Transformez la frappe sur un clavier en une expérience magique.</h1>
+            <div class="marketing2-content">
+              <div class="marketing-box">
+                <img
+                  src="images/png-transparent-headphones-headset-electronics-desktop-wallpaper-audio-equipment-removebg-preview.png"
+                  alt=""
+                />
+                <h3>Sepicial offers</h3>
+                <h4>"Le clavier sans fil : liberté de mouvement, confort absolu, et connexion sans effort pour une productivité maximale."</h4>
+              </div>
+              <div class="marketing-box">
+                <img src="images/3226778.png" alt="" />
+                <h3>Wireless</h3>
+                <h4>"Le clavier sans fil : liberté de mouvement, confort absolu, et connexion sans effort pour une productivité maximale."</h4>
+              </div>
+              <div class="marketing-box">
+                <img
+                  src="images/png-clipart-microphone-computer-icons-dictation-machine-microphone-electronics-microphone-removebg-preview.png"
+                  alt=""
+                />
+                <h3>AZERTY</h3>
+                <h4>""Le clavier sans fil : liberté de mouvement, confort absolu, et connexion sans effort pour une productivité maximale.""</h4>
+              </div>
+              <div class="marketing-box">
+                <img src="images/téléchargement-removebg-preview.png" alt="" />
+                <h3>QWERTY</h3>
+                <h4>""Le clavier sans fil : liberté de mouvement, confort absolu, et connexion sans effort pour une productivité maximale.""</h4>
+              </div>
+            </div>
+          </div>
+      <!-- Categories  -->
+
+    <div class="categories-section" id="categories-section">
+        <h1 class="Title">Categories!</h1>
+        <div class="categoriesFlex">
+          <div class="categories-box one">
+            <div class="image-container">
+              <img
+                src="https://th.bing.com/th/id/R.abae0dd36c1a90b64031737a9755691d?rik=kdqou7Qwb0C7pQ&pid=ImgRaw&r=0"
+                alt=""
+              />
+              <div class="overlay"></div>
+            </div>
+            <div class="layout">
+              <div class="categorie-text">
+                <h2>clavier logitech</h2>
+                <p>
+                  Des switchs mécaniques logitech™, maintes fois acclamés et spécialement conçus pour les gamers
+                </p>
+                <button>View Category</button>
+              </div>
+            </div>
+          </div>
+          <div class="categories-box two">
+            <div class="image-container">
+              <img
+                src="https://logodownload.org/wp-content/uploads/2020/03/redragon-logo-0.png"height="130px"
+                alt=""
+              />
+              <div class="overlay"></div>
+            </div>
+            <div class="layout">
+              <div class="categorie-text">
+                <h2>clavier redragon</h2>
+                <p>
+                    Des switchs mécaniques redragon™, maintes fois acclamés et spécialement conçus pour les gamers
+                </p>
+                <button>View Category</button>
+              </div>
+            </div>
+          </div>
+          <div class="categories-box three">
+            <div class="image-container">
+              <img
+                src="https://www.seekpng.com/png/full/177-1779461_razer-logo-png-graphic-free-razer-png.png"height="30px"
+                alt=""
+              />
+              <div class="overlay"></div>
+            </div>
+            <div class="layout">
+              <div class="categorie-text">
+                <h2>clavier razer</h2>
+                <p>
+                    Des switchs mécaniques razer™, maintes fois acclamés et spécialement conçus pour les gamers
+                </p>
+                <button>View Category</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+          <!-- marketing -->
+
+          <div class="background">
+            <div class="Product-img">
+              <img src="Capture_d_écran_2024-07-19_152043-removebg-preview.png">
+            <div class="moreInfo">
+              <div class="Box1">
+                <picture class="frame">
+                  <img
+                    src=""
+                    alt=""
+                  />
+                </picture>
+                <h1>"EXCEPTIONAL TYPING EXPERIENCE"</h1>
+                <h2>
+                    Feel the difference with every keystroke. Our keyboard delivers precise, responsive, and tactile feedback that makes typing an absolute pleasure. Elevate your productivity and enjoy the magic of flawless typing."
+                </h2>
+              </div>
+              <div class="Box2">
+                <picture class="frame">
+    
+                  <img=
+                    src=""
+                  />
+                </picture>
+                <h1>"UNPARALLELED KEYBOARD PERFORMANCE"</h1>
+                <h2>
+                    Experience the epitome of typing with our state-of-the-art keyboard. Designed for comfort and precision, each key press is smooth, accurate, and satisfying, making every typing session an extraordinary journey."
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- headphone  -->
+
+      <div class="headpone-card" id="headpone-card">
+        <h1 class="Title">Clavier Wireless For You!</h1>
+        <div class="swiper slider1">
+          <div class="swiper-wrapper cards1"></div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev swiper-navBtn"></div>
+          <div class="swiper-button-next swiper-navBtn"></div>
+          <div class="swiper-scrollbar"></div>
+        </div>
+      <h1 class="Title">Clavier Mecanique For You!</h1>
+      <div class="swiper slider2">
+        <div class="swiper-wrapper cards2"></div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-scrollbar"></div>
+      </div>
+      <h1 class="Title">The Best Packs For You!</h1>
+      <div class="swiper slider3">
+        <div class="swiper-wrapper cards3"></div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </div>
+
+     <!-- commentaire-section  -->
+
+    <div class="commentaire-section">
+        <h1 class="Title">Customers Comments</h1>
+        <div class="content">
+          <div class="commentaire-card">
+            <div class="front">
+              <img src="data:image/jpeg;base64,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" alt="" />
+              <h3>AHMED</h3>
+              <div class="stars">
+                <i class="fa-solid fa-star filled"></i>
+                <i class="fa-solid fa-star filled"></i>
+                <i class="fa-solid fa-star filled"></i>
+                <i class="fa-solid fa-star filled"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+            <div class="behind">
+              <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam aliquam sed at"</p>
+            </div>
+          </div>
+          <div class="commentaire-card">
+            <div class="front">
+              <img src="https://th.bing.com/th?id=OIP.ZvKDgcDeUYFOy-Jbx7p0twHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="" />
+              <h3>AMINE</h3>
+              <div class="stars">
+                <i class="fa-solid fa-star filled"></i>
+                <i class="fa-solid fa-star filled"></i>
+                <i class="fa-solid fa-star filled"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+            <div class="behind">
+              <p>
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam aliquam sed at"
+              </p>
+            </div>
+          </div>
+          <div class="commentaire-card">
+            <div class="front">
+              <img src="MN0006084622-removebg-preview-removebg-preview.png" alt="" />
+              <h3>LANA</h3>
+              <div class="stars">
+                <i class="fa-solid fa-star filled"></i>
+                <i class="fa-solid fa-star filled"></i>
+                <i class="fa-solid fa-star filled"></i>
+                <i class="fa-solid fa-star filled"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+            <div class="behind">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam aliquam sed at
+              </p>
+            </div>
+          </div>
+          <div class="commentaire-card">
+            <div class="front">
+              <img src="https://cdn.pixabay.com/photo/2023/02/08/14/02/ai-generated-7776701_1280.jpg" alt="" />
+              <h3>KARIM</h3>
+              <div class="stars">
+                <i class="fa-solid fa-star filled"></i>
+                <i class="fa-solid fa-star filled"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+            <div class="behind">
+              <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam aliquam sed at."</p>
+            </div>
+          </div>
+          <div class="commentaire-card">
+            <div class="front">
+              <img src="https://th.bing.com/th/id/OIP.ga1DosU67He-FlHtmPxyGgHaKQ?w=665&h=921&rs=1&pid=ImgDetMain" alt="" />
+              <h3>ADEM</h3>
+              <div class="stars">
+                <i class="fa-solid fa-star filled"></i>
+                <i class="fa-solid fa-star filled"></i>
+                <i class="fa-solid fa-star filled"></i>
+                <i class="fa-solid fa-star filled"></i>
+                <i class="fa-solid fa-star filled"></i>
+              </div>
+            </div>
+            <div class="behind">
+              <p>
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam aliquam sed at"
+              </p>
+            </div>
+          </div>
+          <div class="commentaire-card">
+            <div class="front">
+              <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8fb39383-4967-4f42-9663-c3fb7eac5cc5/dfkc145-71991f7c-8a52-439a-a8f0-0ca1efbb5f6d.jpg/v1/fill/w_512,h_512,q_75,strp/huey_freeman___ai_generated_art_by_electricwasp_dfkc145-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTEyIiwicGF0aCI6IlwvZlwvOGZiMzkzODMtNDk2Ny00ZjQyLTk2NjMtYzNmYjdlYWM1Y2M1XC9kZmtjMTQ1LTcxOTkxZjdjLThhNTItNDM5YS1hOGYwLTBjYTFlZmJiNWY2ZC5qcGciLCJ3aWR0aCI6Ijw9NTEyIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.L705FGp2p_HNsljPP-jdPTjlrwZXD0J4Mf1sp_iisx0" alt="" />
+              <h3>JOHN</h3>
+              <div class="stars">
+                <i class="fa-solid fa-star filled"></i>
+                <i class="fa-solid fa-star filled"></i>
+                <i class="fa-solid fa-star filled"></i>
+                <i class="fa-solid fa-star filled"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+            <div class="behind">
+              <p>
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam aliquam sed at"
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+     <!-- footer-card  -->
+
+    <footer>
+      <div class="Footer-content">
+        <div class="socialMedia">
+          <h2>Xenon <span>Informatique</span></h2>
+          <div class="social-icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni
+            fugit cumque quaerat laboriosam facere, velit ipsam maxime unde
+            voluptatem iste!
+          </p>
+        </div>
+        <div class="links">
+          <a href="">Xenon Informatique france</a>
+          <a href="">Xenon Informatique TUNISIA</a>
+          <a href="">Xenon Informatique UNITED KINGDOM</a>
+          <a href="">Xenon Informatique canada</a>
+          <a href="">Xenon Informatique Saudi Arabia</a>
+        </div>
+        <div class="Footer-contact">
+          <div class="location">
+            <i class="fa-solid fa-location-dot"></i>
+            <h3>tunisia,</h3>
+          </div>
+          <div class="time">
+            <i class="far fa-clock fa-fw"></i>
+            <h3>Business Hours: From 10:00 To 18:00</h3>
+          </div>
+          <div class="number">
+            <i class="fa-solid fa-phone-volume"></i>
+            <h3>
+              +216 90003060<br />
+              +216 90003060
+            </h3>
+          </div>
+        </div>
+        <div class="payement">
+          <h2>Payment</h2>
+          <div class="card-icons">
+            <img src="https://th.bing.com/th/id/OIP.x7hVJon8m_LPVB2AyBfYwgHaEK?w=295&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="" />
+            <img src="https://th.bing.com/th/id/OIP.wBKSzdf1HTUgx1Ax_EecKwHaHa?w=161&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="" />
+            <img src="https://th.bing.com/th/id/OIP.zeRTxpEsrjvlKPWbIlwwagHaEK?w=297&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/American_Express_logo_(2018).svg/1200px-American_Express_logo_(2018).svg.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="copy-right"><h1>Made by Adem</h1></div>
+    </footer>
+      <!-- shopping-card  -->
+
+    <div class="cart-buying">
+        <div class="flexCard">
+          <div class="text-card">
+            <h2>Your cards</h2>
+            <i class="fa-solid fa-x"></i>
+          </div>
+          <div class="listcards"></div>
+          <div class="totalePrice">Total Price: $0</div>
+          <div class="checkout-btn">
+            <h3>Confirm Order</h3>
+          </div>
+        </div>
+      </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+      <script src="mains.js"></script>
+    </body>
+    </html>
+  </body>
+  </html>
